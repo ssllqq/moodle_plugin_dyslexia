@@ -28,6 +28,7 @@ $string['intro'] = 'OpenDyslexic font increase readability for readers with dysl
 $string['opendyslexic_font'] = 'OpenDyslexic font';
 $string['defaut_font'] = 'Default font';
 $string['info'] = 'What is dyslexia ?';
+$string['style'] = 'Style';
 $string['readmore'] = 'Read more...';
 $string['moving_title'] = 'Why all is moving ?';
 $string['moving_description'] = 'Some dislexic people have this impression : they can read, mais need a lot of concentration because letters seems to move. This page allows to share this feeling...';
