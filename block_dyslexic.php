@@ -59,7 +59,7 @@ class block_dyslexic extends block_base {
         $this->content->text = get_string("intro", "block_dyslexic");
 
         // Display Change font button for each case.
-        if ($_COOKIE["dyslexic"] == "true") {
+        if (($_COOKIE["dyslexic"] ?? "") == "true") {
             $this->content->text .= '<div style="text-align:center"><form>
             <input type="submit" onclick="setCookie(\'dyslexic\', \'false\', 60);return false;" name="theme" value="'.get_string("defaut_font", "block_dyslexic").'" id="off">
             </form>
